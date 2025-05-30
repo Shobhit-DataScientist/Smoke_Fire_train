@@ -1,0 +1,7 @@
+model: yolov8m.pt
+imgsz: 640
+batch: 16
+epochs: 100
+project: runs/train
+name: amd_yolov8m
+data: dataset/data.yaml
